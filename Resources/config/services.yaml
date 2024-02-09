@@ -7,3 +7,10 @@ services:
     KooijmanInc\Suzie\Model\Connection\ConnectionFactory:
         class: KooijmanInc\Suzie\Model\Connection\ConnectionFactory
         public: true
+        arguments:
+            $host: '%suzie.connection.host%'
+            $user: '%suzie.connection.user%'
+            $pass: '%suzie.connection.pass%'
+            $port: '%suzie.connection.port%'
+            $dbname: '%suzie.connection.dbname%'
+            $charset: '%suzie.connection.charset%'

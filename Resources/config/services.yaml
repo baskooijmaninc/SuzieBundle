@@ -9,4 +9,4 @@ services:
 
     KooijmanInc\Suzie\Model\DataAccess\DataAccessInterface:
         public: true
-        alias: KooijmanInc\Suzie\Model\DataAccess\DataAccess
+        alias: KooijmanInc\Suzie\Model\DataAccess\AbstractDataAccess

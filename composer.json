@@ -1,7 +1,7 @@
 {
     "name": "baskooijmaninc/suzie-bundle",
     "type": "symfony-bundle",
-    "description": "Kooijman Incorporate Holding B.V. Suzie is an Orm and FormBuilder Bundle based on symfony and bootstrap",
+    "description": "Kooijman Incorporate Holding B.V. Suzie-Bundle",
     "keywords": [
         "Suzie Bundle"
     ],

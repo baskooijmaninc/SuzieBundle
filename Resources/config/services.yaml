@@ -6,3 +6,7 @@ services:
 
     KooijmanInc\Suzie\:
         resource: '%kernel.project_dir%/vendor/baskooijmaninc/suzie/src/*'
+
+    KooijmanInc\Suzie\Model\DataAccess\DataAccessInterface:
+        public: true
+        alias: KooijmanInc\Suzie\AbstractDataAccess

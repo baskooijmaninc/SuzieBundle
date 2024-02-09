@@ -7,6 +7,5 @@ services:
     KooijmanInc\Suzie\:
         resource: '%kernel.project_dir%/vendor/baskooijmaninc/suzie/src/*'
 
-    KooijmanInc\Suzie\Model\DataAccess\DataAccessInterface:
+    KooijmanInc\Suzie\Model\DataAccess\AbstractDataAccess:
         public: true
-        alias: KooijmanInc\Suzie\Model\AbstractDataAccess

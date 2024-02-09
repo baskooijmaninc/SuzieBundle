@@ -20,17 +20,7 @@
             "allow-contrib": "true"
         }
     },
-    "env": {
-        "DB_HOST": "localhost",
-        "DB_USER": "root",
-        "DB_PASS": "root",
-        "DB_PORT": "3306",
-        "DB_NAME": "",
-        "DB_CHARSET": "utf8mb4"
-    },
-    "copy-from-package": {
-        "bin/suzie.yaml": "config/packages/suzie.yaml"
-    },
+
     "require": {
         "symfony/http-kernel": "~7.0"
     },

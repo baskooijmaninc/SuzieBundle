@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/baskooijmaninc/Suzie.git",
-                "reference": "9a2381c06c0e1727b5effc01dc6301a9d36f0ccd"
+                "reference": "17fff72c6a82ba924663253ec87a66db2589a7ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/9a2381c06c0e1727b5effc01dc6301a9d36f0ccd",
-                "reference": "9a2381c06c0e1727b5effc01dc6301a9d36f0ccd",
+                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/17fff72c6a82ba924663253ec87a66db2589a7ad",
+                "reference": "17fff72c6a82ba924663253ec87a66db2589a7ad",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "issues": "https://github.com/baskooijmaninc/Suzie/issues",
                 "source": "https://github.com/baskooijmaninc/Suzie/tree/master"
             },
-            "time": "2024-02-09T13:40:05+00:00"
+            "time": "2024-02-09T15:05:17+00:00"
         },
         {
             "name": "psr/container",

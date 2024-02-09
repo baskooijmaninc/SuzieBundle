@@ -6,7 +6,10 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class SuzieBundle extends Bundle
 {
-    public function boot()
+    /**
+     * @return void
+     */
+    public function boot(): void
     {
 
     }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4900f7a8d4bdd4fb56e644cf5203b068",
+    "content-hash": "82c51390f15a7a4a09c632702afb13ab",
     "packages": [
         {
             "name": "baskooijmaninc/suzie",
@@ -12,15 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/baskooijmaninc/Suzie.git",
-                "reference": "6e0a1d829866307554657cad0e43ef4852c15f07"
+                "reference": "c34885388d007d7b3469719765b6965f569a9370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/6e0a1d829866307554657cad0e43ef4852c15f07",
-                "reference": "6e0a1d829866307554657cad0e43ef4852c15f07",
+                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/c34885388d007d7b3469719765b6965f569a9370",
+                "reference": "c34885388d007d7b3469719765b6965f569a9370",
                 "shasum": ""
             },
             "require": {
+                "ext-mysqli": "*",
                 "php": ">=8.2",
                 "symfony/config": "~7.0",
                 "symfony/console": "~7.0",
@@ -61,7 +62,7 @@
                 "issues": "https://github.com/baskooijmaninc/Suzie/issues",
                 "source": "https://github.com/baskooijmaninc/Suzie/tree/master"
             },
-            "time": "2024-02-09T13:33:30+00:00"
+            "time": "2024-02-09T13:37:49+00:00"
         },
         {
             "name": "psr/container",
@@ -1978,8 +1979,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.2",
-        "ext-mysqli": "*"
+        "php": ">=8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

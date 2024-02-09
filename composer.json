@@ -25,7 +25,6 @@
     },
     "require": {
         "php": ">=8.2",
-        "ext-mysqli": "*",
         "symfony/http-kernel": "~7.0",
         "baskooijmaninc/suzie": "dev-master"
     },

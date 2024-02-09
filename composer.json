@@ -1,0 +1,37 @@
+{
+    "name": "baskooijmaninc/suzie-bundle",
+    "type": "symfony-bundle",
+    "description": "Kooijman Incorporate Holding B.V. Suzie is an Orm and FormBuilder Bundle based on symfony and bootstrap",
+    "keywords": [
+        "Suzie Bundle"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Sebastiaan Kooijman",
+            "email": "kooijmaninc@gmail.com",
+            "role": "Owner / Creator / Main Developer"
+        }
+    ],
+    "extra": {
+        "symfony": {
+            "allow-contrib": "true"
+        }
+    },
+    "env": {
+        "DB_HOST": "localhost",
+        "DB_USER": "root",
+        "DB_PASS": "root",
+        "DB_PORT": "3306",
+        "DB_NAME": "",
+        "DB_CHARSET": "utf8mb4"
+    },
+    "require": {
+        "symfony/http-kernel": "~7.0"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "~7.0"
+    }
+}

@@ -10,7 +10,7 @@ class SuzieExtension extends Extension
 {
 
     public function load(array $configs, ContainerBuilder $container)
-    {dump($configs);dump($container);
+    {dump($configs);
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 

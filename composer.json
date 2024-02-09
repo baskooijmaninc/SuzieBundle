@@ -19,7 +19,7 @@
         "symfony": {
             "allow-contrib": "true",
             "endpoint": [
-                "https://github.com/baskooijmaninc/SuzieBundle/manifest.json"
+                "https://github.com/baskooijmaninc/SuzieBundle/blob/master/manifest.json"
             ]
         }
     },

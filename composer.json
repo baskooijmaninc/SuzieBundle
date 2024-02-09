@@ -23,7 +23,6 @@
             ]
         }
     },
-
     "require": {
         "symfony/http-kernel": "~7.0"
     },
@@ -32,7 +31,11 @@
     },
     "autoload": {
         "psr-4": {
-            "KooijmanInc\\SuzieBundle\\": ""
+            "KooijmanInc\\SuzieBundle\\": "",
+            "KooijmanInc\\Suzie\\": "src/Suzie/",
+            "KooijmanInc\\Suzie\\FormBuilder": "src/FormBuilder/",
+            "KooijmanInc\\Suzie\\Model": "src/Model/",
+            "KooijmanInc\\Suzie\\Exception": "src/Exception/"
         }
     }
 }

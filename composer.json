@@ -28,6 +28,9 @@
         "DB_NAME": "",
         "DB_CHARSET": "utf8mb4"
     },
+    "copy-from-package": {
+        "bin/suzie.yaml": "%CONFIG_DIR%/packages/suzie.yaml"
+    },
     "require": {
         "symfony/http-kernel": "~7.0"
     },

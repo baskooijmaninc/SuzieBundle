@@ -4,9 +4,6 @@ services:
         autoconfigure: true
         public: false
 
-    KooijmanInc\Suzie\:
-        resource: '%kernel.project_dir%/vendor/baskooijmaninc/suzie/src/*'
-
-#    KooijmanInc\Suzie\Model\DataAccess\DataAccessInterface:
-#        public: true
-#        alias: KooijmanInc\Suzie\Model\DataAccess\AbstractDataAccess
+    KooijmanInc\Suzie\Model\Connection\ConnectionFactory:
+        class: KooijmanInc\Suzie\Model\Connection\ConnectionFactory
+        public: true

@@ -3,3 +3,6 @@ services:
         autowire: true
         autoconfigure: true
         public: false
+
+    KooijmanInc\Suzie\:
+        resource: '%kernel.project_dir%/vendor/baskooijmaninc/suzie/src/*'

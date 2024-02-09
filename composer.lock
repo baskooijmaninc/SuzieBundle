@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/baskooijmaninc/Suzie.git",
-                "reference": "16697fa37b90b54fa76d8cfebff66d03d6fe006b"
+                "reference": "268c47f5cdd4abbea950aa7836a656ac4da69798"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/16697fa37b90b54fa76d8cfebff66d03d6fe006b",
-                "reference": "16697fa37b90b54fa76d8cfebff66d03d6fe006b",
+                "url": "https://api.github.com/repos/baskooijmaninc/Suzie/zipball/268c47f5cdd4abbea950aa7836a656ac4da69798",
+                "reference": "268c47f5cdd4abbea950aa7836a656ac4da69798",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,8 @@
                 "php": ">=8.2",
                 "symfony/config": "~7.0",
                 "symfony/console": "~7.0",
-                "symfony/intl": "~7.0"
+                "symfony/intl": "~7.0",
+                "symfony/yaml": "~7.0"
             },
             "require-dev": {
                 "psr/container": "*",
@@ -36,10 +37,7 @@
             "type": "symfony",
             "autoload": {
                 "psr-4": {
-                    "KooijmanInc\\Suzie\\": "src/Suzie/",
-                    "KooijmanInc\\Suzie\\Model\\": "src/Model/",
-                    "KooijmanInc\\Suzie\\Exception\\": "src/Exception/",
-                    "KooijmanInc\\Suzie\\FormBuilder\\": "src/FormBuilder/"
+                    "KooijmanInc\\Suzie\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -61,7 +59,7 @@
                 "issues": "https://github.com/baskooijmaninc/Suzie/issues",
                 "source": "https://github.com/baskooijmaninc/Suzie/tree/master"
             },
-            "time": "2024-02-09T15:21:53+00:00"
+            "time": "2024-02-09T16:23:58+00:00"
         },
         {
             "name": "psr/container",
@@ -1725,6 +1723,77 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/var-dumper/tree/v7.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-01-23T15:02:46+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v7.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2d4fca631c00700597e9442a0b2451ce234513d3",
+                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "conflict": {
+                "symfony/console": "<6.4"
+            },
+            "require-dev": {
+                "symfony/console": "^6.4|^7.0"
+            },
+            "bin": [
+                "Resources/bin/yaml-lint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Loads and dumps YAML files",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v7.0.3"
             },
             "funding": [
                 {
